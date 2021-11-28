@@ -3,10 +3,10 @@ import png from './assets/Koala.jpg'
 console.log(x);
 console.log('hi');
 
-const div = document.getElementById('app1')
-div.innerHTML = `
-    <img src="${png}"></img>
-`
+// const div = document.getElementById('app1')
+// div.innerHTML = `
+//     <img src="${png}"></img>
+// `
 
 const button = document.createElement('button')
 button.innerHTML = "懒加载"
